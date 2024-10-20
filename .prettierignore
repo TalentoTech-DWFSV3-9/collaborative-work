@@ -1,0 +1,20 @@
+# Ignorar archivos de configuración
+*.config.js
+*.config.json
+
+# Ignorar archivos de caché
+*.cache
+.cache/
+
+# Ignorar carpetas específicas
+build/
+dist/
+node_modules/
+coverage/
+
+# Ignorar archivos específicos
+src/someFolder/ignoreThisFile.js
+
+# Ignorar archivos de documentación
+README.md
+docs/
