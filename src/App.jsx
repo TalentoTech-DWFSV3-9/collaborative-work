@@ -5,12 +5,7 @@ import ActivityLog from "./components/tasks/taskcard/ActivityLog";
 import "./App.css";
 
 const App = () => {
-  const activities = [
-    'Inició sesión',
-    'Creó un nuevo documento',
-    'Actualizó su perfil',
-    'Cerró sesión',
-  ];
+  const activities = ["Inició sesión", "Creó un nuevo documento", "Actualizó su perfil", "Cerró sesión"];
 
   const [count, setCount] = useState(0);
 
